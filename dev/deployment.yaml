@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: myapp
+  name: otel-application
 spec:
   selector:
     matchLabels:
-      app: myapp
+      app: otel-application
   replicas: 2
   template:
     metadata:
       labels:
-        app: myapp
+        app: otel-application
     spec:
       containers:
-      - name: myapp
+      - name: otel-application
         image: jaegertracing/all-in-one:1.43
         ports:
         - containerPort: 16686

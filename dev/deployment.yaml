@@ -16,4 +16,4 @@ spec:
       - name: myapp
         image: jaegertracing/all-in-one:1.43
         ports:
-        - containerPort: 8080
+        - containerPort: 16686

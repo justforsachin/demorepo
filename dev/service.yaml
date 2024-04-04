@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: otel-service
+spec:
+  selector:
+    app: otel-application
+  ports:
+  - port: 16686
+    protocol: TCP
+    targetPort: 16686

@@ -15,5 +15,3 @@ spec:
       containers:
       - name: otel-application
         image: jaegertracing/all-in-one:1.43
-        ports:
-        - containerPort: 16686

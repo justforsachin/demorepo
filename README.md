@@ -1,1 +1,1 @@
-# Argo CD Demo By Sachin
+# Argo CD Demo
